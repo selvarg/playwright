@@ -1,5 +1,5 @@
 import { test, expect, chromium } from '@playwright/test';
-test.only('Handling iframes', async ({page}) => {
+test('Handling iframes', async ({page}) => {
     // page.frame()
     // page.frameLocator()
 
